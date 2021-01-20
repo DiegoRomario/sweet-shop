@@ -95,7 +95,7 @@ section {
 	margin-top: 70px;
 }
 
-#session-welcome::after, #session-sobre::after {
+#session-welcome::after, #session-about::after {
 	content: "";
 	display: block;
 	clear: both;
@@ -141,3 +141,16 @@ section {
 .session-welcome-btn:hover, form input[type=submit]:hover {
 	background-color: #2790C6;
 }
+
+#session-about .session-minibanner {
+	float: right;
+	margin-right: 50px;
+	background-image: url('../img/banner4.jpg');
+}
+
+#session-about .session-description {
+	position: absolute;
+	left: 25px;
+	width: calc(100% - 400px);
+}
+
