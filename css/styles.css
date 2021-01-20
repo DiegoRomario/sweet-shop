@@ -52,3 +52,92 @@ a {
 	margin-left: auto;
 	margin-right: auto;
 }  
+
+.content {
+	position: absolute;
+	left: 300px;
+	width: calc(100% - 300px);
+}
+
+.content h1, .content h2 {
+	color: #006599;
+	margin-bottom: 30px;
+}
+
+.content h1 {
+	font-size: 48px;
+}
+
+.content h2 {
+	font-size: 35px;
+}
+
+section {
+	padding-left: 50px;
+}
+
+#session-welcome {
+	padding-left: 0;
+}
+
+.session-welcome-content {
+	padding-left: 50px;
+}
+
+#session-welcome .banner {
+	height: 500px;
+	background-image: url('../img/banner2.jpg');
+	background-position: center;
+	background-size: cover;
+}
+
+#session-welcome h1 {
+	margin-top: 70px;
+}
+
+#session-welcome::after, #session-sobre::after {
+	content: "";
+	display: block;
+	clear: both;
+	margin-bottom: 100px;
+}
+
+.session-minibanner {
+	width: 300px;
+	height: 400px;
+	background-image: url('../img/banner3.jpg');
+	background-position: center;
+	background-size: cover;
+	float: left;
+}
+
+.session-description {
+	position: absolute;
+	left: 370px;
+	padding-right: 30px;
+}
+
+.session-description p {
+	line-height: 2;
+	font-size: 16px;
+	margin-bottom: 30px;
+	margin-left: 25px;
+}
+
+.session-welcome-btn, form input[type=submit] {
+	background-color: #006599;
+	color: #FFF;
+	text-decoration: none;
+	padding: 20px 40px;
+	transition: .5s;
+	display: block;
+	width: 100px;
+	text-align: center;
+	border: none;
+	cursor: pointer;
+	margin-left: 25px;
+}
+
+.session-welcome-btn:hover, form input[type=submit]:hover {
+	background-color: #2790C6;
+}
